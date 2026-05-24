@@ -1,0 +1,175 @@
+Streaming transaction logs mentioning 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj. Confirmed commitment
+Transaction executed in slot 464645848:
+  Signature: bnaok2kHuNkML7CiMVrn4KPrzPkrSo5HVKRjMKFaeMwcovXH7D8ed5YDfJXMws1gK4Sb33tCpbvjGRJg3ek7kYt
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Initialize
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 7012 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645848:
+  Signature: v6WiZvWyLsNeeJSy3ZRj5UvvdA7GW5sGUdWeVxYqGP7ne5kC5xRATuB6HKnYhYd7DaTDfGR5Xvrs8aoPRYvAftJ
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Update
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 3088 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645850:
+  Signature: v6WiZvWyLsNeeJSy3ZRj5UvvdA7GW5sGUdWeVxYqGP7ne5kC5xRATuB6HKnYhYd7DaTDfGR5Xvrs8aoPRYvAftJ
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Update
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 3088 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645852:
+  Signature: 53WnDTRc6JaL4MNdiWGmLuGaPdwKqrxrVymNv4PmjbrSowVpRjCruNm5Ho9tS3FXJz4Cawa5YhNiUFz22Dnte1Be
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: RequestRandomness
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz invoke [2]
+    Program log: Idx: 0
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz consumed 7177 of 188034 compute units
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 19794 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645854:
+  Signature: g1oFxDhkHYB2DqwF6m4CjgjKtr69EWJFZAgKFoGyveF4E4ByfdHudePdaeDkFAmaYcTMyJvmYiBRQV9SWPuZTtM
+  Status: Ok
+  Log Messages:
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz invoke [1]
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [2]
+    Program log: Instruction: CallbackRandomness
+    Program log: VRF randomness received: [26, 30, 216, 134, 199, 244, 8, 241, 4, 54, 45, 207, 242, 145, 85, 174, 55, 43, 232, 125, 81, 217, 203, 184, 108, 222, 185, 27, 198, 227, 38, 88]
+    Program log: Storing as u64: 17368401100752297498
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 9252 of 268559 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz consumed 40842 of 299850 compute units
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz success
+Transaction executed in slot 464645854:
+  Signature: 4LkiPMzi2TMaSRjerMzyhQcU9Abp7By2H62WC16NKzLZz2UUvsNjxACkvuqUxqUdfqaNWHxirnhGrNW9yJjMc75H
+  Status: Error processing Instruction 1: custom program error: 0x1
+  Log Messages:
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz invoke [1]
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz consumed 6255 of 299850 compute units
+    Program Vrf1RNUjXmQGjmQrQLvJHs9SNkvDJEsRVFPkfSQUwGz failed: custom program error: 0x1
+Transaction executed in slot 464645895:
+  Signature: 384WvLX24W9qfvmskKLp21x7bTm32bavHvDKehNdUpdtxr3iCp9vjsM1JQ5aQZvGggey4wmaEcogTB4qsKUAP1f8
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Delegate
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh invoke [2]
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh consumed 14321 of 176761 compute units
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 38163 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645935:
+  Signature: 6JzgutxWr6cyjk5FQjoDPmsKUWBT73mvfZa7qkEYV31miA3scMrfHkJWRLEnmwn6hMCMksLkjKezt4SWHBJ4uij
+  Status: Ok
+  Log Messages:
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh invoke [1]
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh consumed 1175 of 139700 compute units
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh invoke [1]
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [2]
+    Program log: Instruction: ProcessUndelegation
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 7106 of 98562 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh consumed 49325 of 138525 compute units
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh success
+Transaction executed in slot 464645944:
+  Signature: 5G6SXaNboEA65QNtSZWS37HghjeLzDNRjuhKKiubKAURGE4PvGDX2sQ4MKd9JbSepyfyQsrE74pA3UVUV7ad3mrL
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Delegate
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh invoke [2]
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh consumed 14321 of 176761 compute units
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 38163 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645951:
+  Signature: LDAohX9zA2UGm6Pbu47yTkvWuEfo4tVFyMVfbhVPfXXoCm3RuhfEQ9M6aqS9RGzSpq5d8xM4whmA9cAy8Rx4UxS
+  Status: Ok
+  Log Messages:
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh invoke [1]
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh consumed 1175 of 139700 compute units
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh invoke [1]
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [2]
+    Program log: Instruction: ProcessUndelegation
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 7106 of 98562 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh consumed 49325 of 138525 compute units
+    Program DELeGGvXpWV2fqJUhqcF5ZSYMS4JTLjteaAMARRSaeSh success
+Transaction executed in slot 464645952:
+  Signature: FZ8sLNfxvrWpeeXkcuBWKDMRv1sSTghHx2yL5YEvHDYPUjNXX53hLML284WFRGqDDqqLmETnsxJQvyXDNLLikQN
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Update
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 3088 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645953:
+  Signature: FZ8sLNfxvrWpeeXkcuBWKDMRv1sSTghHx2yL5YEvHDYPUjNXX53hLML284WFRGqDDqqLmETnsxJQvyXDNLLikQN
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Update
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 3088 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success
+Transaction executed in slot 464645955:
+  Signature: 4CMHec1UHNE8HLeKWZ1VYVFG4A2gkdT7qX6ts7mXvgctkr1t3oSvzK8M9v389C1U9nAB4aAmgNTnTnqXvkzcE38C
+  Status: Ok
+  Log Messages:
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj invoke [1]
+    Program log: Instruction: Close
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj consumed 3393 of 200000 compute units
+    Program 3LNFAs7bRcC5rts2tX5AW1iNrnAXuomPC1YK11W8s5qj success

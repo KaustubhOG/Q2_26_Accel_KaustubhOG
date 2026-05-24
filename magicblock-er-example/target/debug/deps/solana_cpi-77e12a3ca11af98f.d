@@ -1,0 +1,7 @@
+/home/kaustubh/Devlopment/Q2_26_Accel_KaustubhOG/magicblock-er-example/target/debug/deps/solana_cpi-77e12a3ca11af98f.d: /home/kaustubh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-cpi-2.2.1/src/lib.rs
+
+/home/kaustubh/Devlopment/Q2_26_Accel_KaustubhOG/magicblock-er-example/target/debug/deps/libsolana_cpi-77e12a3ca11af98f.rlib: /home/kaustubh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-cpi-2.2.1/src/lib.rs
+
+/home/kaustubh/Devlopment/Q2_26_Accel_KaustubhOG/magicblock-er-example/target/debug/deps/libsolana_cpi-77e12a3ca11af98f.rmeta: /home/kaustubh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-cpi-2.2.1/src/lib.rs
+
+/home/kaustubh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-cpi-2.2.1/src/lib.rs:
