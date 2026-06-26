@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 
 #[derive(Accounts)]
 pub struct CallbackRandomness<'info> {
-    /// VRF program identity must be signer — proves oracle called this
+    /// VRF program identity must be signer   proves oracle called this
     #[account(address = ephemeral_vrf_sdk::consts::VRF_PROGRAM_IDENTITY)]
     pub vrf_program_identity: Signer<'info>,
     /// The user account we update with random data

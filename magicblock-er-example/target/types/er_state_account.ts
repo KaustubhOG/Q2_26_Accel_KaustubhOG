@@ -29,7 +29,7 @@ export type ErStateAccount = {
         {
           "name": "vrfProgramIdentity",
           "docs": [
-            "VRF program identity must be signer — proves oracle called this"
+            "VRF program identity must be signer   proves oracle called this"
           ],
           "signer": true,
           "address": "9irBy75QS2BN81FUgXuHcjqceJJRuc9oDkAe8TKVvvAw"
@@ -70,7 +70,7 @@ export type ErStateAccount = {
         {
           "name": "vrfProgramIdentity",
           "docs": [
-            "VRF program identity must be signer — proves oracle called this"
+            "VRF program identity must be signer   proves oracle called this"
           ],
           "signer": true,
           "address": "9irBy75QS2BN81FUgXuHcjqceJJRuc9oDkAe8TKVvvAw"

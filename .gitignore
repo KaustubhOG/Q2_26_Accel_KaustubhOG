@@ -1,0 +1,33 @@
+# Rust / Cargo
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Anchor
+.anchor/
+deploy/
+
+# Node / JS
+node_modules/
+.yarn/
+dist/
+build/
+
+# Solana
+test-ledger/
+*.so
+*.keypair
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

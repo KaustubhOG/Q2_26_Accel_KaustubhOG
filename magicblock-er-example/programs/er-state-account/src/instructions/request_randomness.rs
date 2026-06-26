@@ -16,7 +16,7 @@ pub struct RequestRandomness<'info> {
         bump = user_account.bump,
     )]
     pub user_account: Account<'info, UserAccount>,
-    /// CHECK: Oracle queue — validated by the VRF program itself
+    /// CHECK: Oracle queue   validated by the VRF program itself
     #[account(mut)]
     pub oracle_queue: AccountInfo<'info>,
 }

@@ -37,7 +37,7 @@ describe("er-state-account", () => {
   // Base layer program instance
   const program = anchor.workspace.erStateAccount as Program<ErStateAccount>;
 
-  // ER program instance — same IDL but connected to ER provider
+  // ER program instance   same IDL but connected to ER provider
   const programEr = new anchor.Program(
     anchor.workspace.erStateAccount.idl,
     providerEphemeralRollup,
@@ -106,7 +106,7 @@ describe("er-state-account", () => {
         account.data.toString(),
       );
     } else {
-      console.log("⚠️  Data still 42 — oracle may not have responded yet");
+      console.log("⚠️  Data still 42   oracle may not have responded yet");
     }
   });
 
@@ -130,7 +130,7 @@ describe("er-state-account", () => {
       "5hBR571xnXppuCPveTrctfTU7tJLSN94nq7kv7FRK5Tc",
     );
 
-    // Use programEr — wired to ER provider, sends directly to ER endpoint
+    // Use programEr   wired to ER provider, sends directly to ER endpoint
     const txHash = await programEr.methods
       .requestRandomnessEr(1)
       .accountsPartial({
