@@ -1,0 +1,21 @@
+[package]
+name = "pinocchio-fundraiser"
+version = "0.1.0"
+edition = "2021"
+description = "Fundraiser program ported from Anchor to Pinocchio"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "pinocchio_fundraiser"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+
+[dependencies]
+pinocchio = { version = "0.10", features = ["cpi"] }
+pinocchio-system = "0.5"
+pinocchio-token = "0.5"
+pinocchio-associated-token-account = "0.3"
+solana-address = { version = "2.0", features = ["sha2"] }
