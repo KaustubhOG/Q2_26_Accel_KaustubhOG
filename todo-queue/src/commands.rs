@@ -18,13 +18,13 @@ pub fn list(state: &State) {
         return;
     }
     for (i, todo) in state.queue.iter().enumerate() {
-        println!("[{}] #{} — {}", i + 1, todo.id, todo.description);
+        println!("[{}] #{}      {}", i + 1, todo.id, todo.description);
     }
 }
 
 pub fn done(state: &mut State, path: &Path) -> Result<()> {
     let todo = state.queue.dequeue().ok_or(AppError::EmptyQueue)?;
     persistence::save(path, state)?;
-    println!("completed: #{} — {}", todo.id, todo.description);
+    println!("completed: #{}      {}", todo.id, todo.description);
     Ok(())
 }

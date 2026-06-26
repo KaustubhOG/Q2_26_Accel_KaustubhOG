@@ -9,7 +9,7 @@ pub enum StorageError {
     Deserialize(String),
 
     // Attempted load on an empty storage.
-    #[error("storage is empty — call save() before load()")]
+    #[error("storage is empty      call save() before load()")]
     Empty,
 }
 

@@ -1,7 +1,7 @@
 use crate::error::{Result, StorageError};
 
 // wincode is a bincode-compatible serializer using in-place initialization
-// for faster throughput — no intermediate staging buffers on deserialization.
+// for faster throughput      no intermediate staging buffers on deserialization.
 pub struct Wincode;
 
 impl Wincode {

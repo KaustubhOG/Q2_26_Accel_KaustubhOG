@@ -100,7 +100,7 @@ mod tests {
     fn json_bytes_are_valid_utf8() {
         let mut s = Storage::<Person, Json>::new();
         s.save(&sample_person()).unwrap();
-        // as_json_str is a Json-only method — verifies bytes are human-readable
+        // as_json_str is a Json-only method      verifies bytes are human-readable
         assert!(s.as_json_str().is_some());
     }
 

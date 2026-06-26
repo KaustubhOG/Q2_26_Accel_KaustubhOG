@@ -2,7 +2,7 @@ use crate::error::{Result, StorageError};
 
 /// Serializer backed by the Borsh binary format.
 ///
-/// Borsh was designed for deterministic, canonical encoding — useful when
+/// Borsh was designed for deterministic, canonical encoding      useful when
 /// the byte representation itself must be predictable (e.g. hashing, on-chain).
 pub struct Borsh;
 
