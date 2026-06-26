@@ -1,0 +1,19 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+whitelist_transfer_hook = "GKT2mM8YqWFiYSuNsyNPVzSfaZBRwGnosX3eUJt2UKQS"
+whitelist_transfer_vault = "4Vw9HhrxZ3nUV9WvmymJBm35kUcVpvffz71D6BgwEEZR"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
+
+[hooks]

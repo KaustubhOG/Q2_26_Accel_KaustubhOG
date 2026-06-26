@@ -1,0 +1,34 @@
+[package]
+name = "whitelist-transfer-hook"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "whitelist_transfer_hook"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+
+
+[dependencies]
+anchor-lang = { "version" = "1.0.2", features = ["init-if-needed"] }
+anchor-spl = "1.0.2"
+spl-tlv-account-resolution = "0.11"
+spl-transfer-hook-interface = "2.1"
+spl-discriminator = "0.5.1"
+
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = [
+  'cfg(target_os, values("solana"))',
+] }
