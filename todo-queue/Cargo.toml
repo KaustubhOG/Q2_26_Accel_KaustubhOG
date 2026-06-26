@@ -1,0 +1,16 @@
+[package]
+name = "todo-queue"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "todo"
+path = "src/main.rs"
+
+[dependencies]
+borsh = { version = "1", features = ["derive"] }
+thiserror = "2"
+
+[profile.release]
+opt-level = 3
+strip = true
